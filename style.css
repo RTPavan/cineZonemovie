@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #121212;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 20px 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo h1{
+    color: #f5a623;;
+}
+
+.navLink ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.navLink a{
+    text-decoration: none;
+    color: white;
+}
+
+.navLink a:hover{
+    color: #f5a623;;
+}
+
+.btNav{
+    background-color: #1c1c1c;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    color: white;
+}
+
+/*home section css code*/
+
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+
+main a{
+    color: #f5a623;
+}
+
+.discription{
+    padding: 0px 100px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+.cartSection{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartm{
+    margin-top : 150px ;
+}
+.moreMovie{
+    color: #f5a623;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*contact section css code*/
+
+.contact{
+    padding: 0 100px;
+    color: white;
+    text-align: center;
+}
+
+#name{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#email{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#massage{
+    width: 600px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#submit{
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: #f5a623;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#successSubmit{
+    color: green;
+}
+
+/*about section css code*/
+
+.about{
+   color: white;
+   text-align: center;
+   width: 60%;
+}
+
+.about a{
+    color: #f5a623;
+}
+
+.about img{
+    margin: 100px 30px;
+}
+
+/*movie section css code*/
+
+#search{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.searchBar button{
+    height: 45px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: #f5a623;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.movieSection{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
